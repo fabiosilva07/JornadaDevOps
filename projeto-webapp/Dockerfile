@@ -8,5 +8,5 @@ VOLUME app
 
 WORKDIR app
 
-CMD npx create-react-app reactapp && cd reactapp && npm run build && npm install -g serve && serve -s build
+CMD npm install && npm start && npm run build && npm install -g serve && serve -s build
 

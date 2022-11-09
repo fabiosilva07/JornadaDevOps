@@ -2,13 +2,13 @@ version: "3.7"
 
 services:
   app:
-    image: fabiosilva07/newj-reactapp:1.0
+    image: fabiosilva07/newj-reactapp:3.0
     container_name: reactapp
     restart: on-failure
     ports:
      - 3000:3000
     volumes:
-     - ./NewJ-ReactApp:/app
+     - ./NewJ-React-App:/app
     networks:
      - reactapp_net
 
